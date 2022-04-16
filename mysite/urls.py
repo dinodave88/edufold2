@@ -17,6 +17,6 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('edufold/', include('edufold.urls')),
+    path('', include('edufold.urls')),
     path('admin/', admin.site.urls),
 ]
