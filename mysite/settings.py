@@ -12,9 +12,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure--grq#)90rbixq)67%!tg6q2%h8%_$9!a8!%92wq+0w#fge_w(m'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://edufold1.azurewebsites.net/']
 
 
 # Application definition
