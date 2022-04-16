@@ -6,5 +6,5 @@ app_name = 'edufold'
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('about/', views.about, name='about'),
+    path('app1/', views.app1, name='app1'),
 ]
